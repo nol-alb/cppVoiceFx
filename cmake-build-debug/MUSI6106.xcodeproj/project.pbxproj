@@ -1,0 +1,2207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		57B0AD614075464DB9F79B8B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C10AA097C88A4F13830C4927 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				89D6EAF4B8D1FE7EED616B00 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1C75BEF935A7486F9455790F /* PBXTargetDependency */,
+				074F1596E0D54D0DA9221C56 /* PBXTargetDependency */,
+				BA7F2659029D4BB59755F7F0 /* PBXTargetDependency */,
+				D58AC08C862E41D9A971A243 /* PBXTargetDependency */,
+				6D8EADE35C164BE88DFC99B0 /* PBXTargetDependency */,
+				D7ECEF259F844970A185FE6A /* PBXTargetDependency */,
+				DF25F1FFED894D95ABA47A7A /* PBXTargetDependency */,
+				A7AA322613C64AA889117236 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FDDACFF9DE1E463D9D70795B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ADB5501FBA10E4AEEDA6F89D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0520CADBE52642C3B1AC278F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */ = {isa = PBXBuildFile; fileRef = D1ACF37714D74FE5A7D39A9A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */; };
+		0609DB136BAD4404B59DE923 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 185FB22D38E74F31847B9AE7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/CMakeLists.txt */; };
+		080DBC7E344A493B8212E265 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.h */ = {isa = PBXBuildFile; fileRef = 3605C7308A5143BE954E4756 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.h */; };
+		164EE7F3E7C9477A814C2765 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/unix-config.h */ = {isa = PBXBuildFile; fileRef = B444A7EFF07E410F89B77AB3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/unix-config.h */; };
+		191F2EFCD9B64A3B8FCC91B3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = F6CA43E2C723415D8F9ADFD6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */; };
+		19FED319FB0345F4A72CE2A6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXBuildFile; fileRef = 647B863F7DE0432D9EAC4C20 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */; };
+		1ACE1E287F6C4FEB9C2C9047 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/Vibrato.cpp */ = {isa = PBXBuildFile; fileRef = F89D0BF23512435F8455CC82 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/Vibrato.cpp */; };
+		27C83B1FA91340E59D3196F1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm-strings.h */ = {isa = PBXBuildFile; fileRef = 95C93E4E37E64305A8574B8B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm-strings.h */; };
+		29A84D59B1394670A730587C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E7160A59E6F64998B6CF713F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */; };
+		2A12BA31E1FE4E4FB9225F7A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 76B5EE2DCBCB4EEA96AF3796 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */; };
+		2C7AA20F13CA47A59720000D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A7011FB28EAD4E5F9719A8A2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/CMakeLists.txt */; };
+		34B4CEB9F1F04302A7AE85FD /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.c */ = {isa = PBXBuildFile; fileRef = E4989CD78F7B4A55AD01C5F9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.c */; };
+		35A4BE4DD6894E43966BA62D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.c */ = {isa = PBXBuildFile; fileRef = 1223F681611145B4B0431A9E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.c */; };
+		3862A9A58AA847CA9F439E81 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */ = {isa = PBXBuildFile; fileRef = 3D8680EEF9B34425A225684C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */; };
+		39070242D8594140BEAB04FF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXBuildFile; fileRef = F7822129ABDF4EBD95DF705D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.h */; };
+		3A9CE7686A0D473294F16F3B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/_sndlib.h */ = {isa = PBXBuildFile; fileRef = 5CA3D5AE81DC4924B7749A30 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/_sndlib.h */; };
+		3E2C9C34159A458385BCCB75 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXBuildFile; fileRef = 914A294C12E4479984C91691 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */; };
+		3EE28AB42FAF4BE1B9AB406C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6C4C942EA12E49C19B4AB0F0 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */; };
+		41B17B18872043EAAD5BB16D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXBuildFile; fileRef = 0B037720036140339D05A5EF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */; };
+		4AE8E538C03044F995C747BF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = B6970A31FC2A4ED2BE1A34E5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */; };
+		4C4DA62D0BBB450EBA614E0A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib.h */ = {isa = PBXBuildFile; fileRef = 844A072CBA4D42279051F3D1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib.h */; };
+		4FDF35A530894A8FAB0C9E85 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */ = {isa = PBXBuildFile; fileRef = 0C16C847D9EE4DB49A0822C5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */; };
+		51B78A1B224B4E3880D38AF0 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXBuildFile; fileRef = A51AA2E884DA4CB1A0780495 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib-strings.h */; };
+		586661BCEAC248BCAAA958DA /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/audio.c */ = {isa = PBXBuildFile; fileRef = BA36691180F94ADC9814282D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/audio.c */; };
+		58B43333FEC04E83869AD9D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.c */ = {isa = PBXBuildFile; fileRef = 090FBDCCD7734ECD8A1BFB6A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.c */; };
+		59E47E8EFA1840119B599B3D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */ = {isa = PBXBuildFile; fileRef = 95A0D4796C3F402E8514C805 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */; };
+		5FB8A64794E5494D89974E46 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.h */ = {isa = PBXBuildFile; fileRef = F48E79320F29478D97A49042 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.h */; };
+		61207AAF67AF4711AB139854 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 3BB9478536244435A4F6C173 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */; };
+		67CCD30AC80A4C1BB51C0CDD /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */ = {isa = PBXBuildFile; fileRef = 8E633AC799C34440B0DC18BE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */; };
+		67DEDA8260B94977A602A2DC /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXBuildFile; fileRef = 5F87AD18634B45D09C49EE14 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFileIf.cpp */; };
+		6C93FB9F32FA4E4B9FA2F624 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/headers.c */ = {isa = PBXBuildFile; fileRef = A992728E80AB4368A3DDABA5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/headers.c */; };
+		718EC800275E472AB504E22B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */ = {isa = PBXBuildFile; fileRef = 383C06A198B14A32A26A7E9C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */; };
+		72154BDDC25949C6B837B7EA /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.h */ = {isa = PBXBuildFile; fileRef = AAA15D8F93E54D5DA883ED5D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.h */; };
+		7633447606234874A00973B3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9AE5353D17C94A0CBC149ACD /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/CMakeLists.txt */; };
+		7B4881F01F2F4912AB513E74 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_AudioIO.cpp */ = {isa = PBXBuildFile; fileRef = 71813AA6FAF34AA09C7390D6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_AudioIO.cpp */; };
+		7CEBD749708C44BAAAB87B38 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXBuildFile; fileRef = D1EE5B0CE9684D0BA1581883 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.c */; };
+		7E27D952A798466B9B97BCC7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 9198F6FDA31340DE905BBDD4 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */; };
+		7F2310248F704C33A94719D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sound.c */ = {isa = PBXBuildFile; fileRef = 02A38E28F24D49C6A6C7AC68 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sound.c */; };
+		879D2FEAC15F4F5681FAE42B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXBuildFile; fileRef = 98ABB0DD4B584E11B929A292 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */; };
+		8AC2E794D24C4774A977A73A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/MUSI6106Exec.cpp */ = {isa = PBXBuildFile; fileRef = A8D2340E057344A6B9E8A124 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/MUSI6106Exec.cpp */; };
+		8F20572A17F84D7AB96ED556 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.c */ = {isa = PBXBuildFile; fileRef = BBD81DE0204E40808CE8557D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.c */; };
+		9063A1032F914DB3A8F8EFB2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */ = {isa = PBXBuildFile; fileRef = 134855DE078243ABB392BA7D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */; };
+		91D2B2E50D0B4887B3C6DD0E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.h */ = {isa = PBXBuildFile; fileRef = D4F44C86CEF74BAD95EE2FA1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.h */; };
+		9360BB4CD8484D938822A6D2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 48FAB76B373549A282CA41EC /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */; };
+		99058527204446A1B20F0F61 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXBuildFile; fileRef = EB5AC39811DD4A9D8F9B0A79 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */; };
+		9A2D3AC5558E4D46B281C4A3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 6D2FA7A15E6841228167D23F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */; };
+		9DEA54D11D69496493F7D19B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/mus-config.h */ = {isa = PBXBuildFile; fileRef = 970F523AA5744E61B88231D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/mus-config.h */; };
+		9E8D7B22584B4295BFD410F8 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_Vibrato.cpp */ = {isa = PBXBuildFile; fileRef = E7BCFE9FAE3A484390D47BB6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_Vibrato.cpp */; };
+		A14A4AA4E7F24C3C90AA6F3A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */ = {isa = PBXBuildFile; fileRef = CDC8238510194A738F179A48 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */; };
+		A7D9FAB0DAFB4A56AA7D7960 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 875131BC92E74137938E4451 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */; };
+		AB37345D60B040928E12AA50 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = A9204C5D6F874B179D3136EE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */; };
+		AC13B8AA45EB4B8B92A2A02A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */ = {isa = PBXBuildFile; fileRef = FD789D52CC41416FAC52CF07 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */; };
+		AC2C2705923B45EB80921F1F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXBuildFile; fileRef = 23DD5D474C2D44218F0C3996 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */; };
+		B29BE46F552C45BC9129525D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */ = {isa = PBXBuildFile; fileRef = 9155CC3D16E445EFAD758D09 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */; };
+		B768FE234FDE403F82533D03 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXBuildFile; fileRef = 90B3ADC2386E445D9F84856E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */; };
+		BF1549BDF35E43FB8E2B4530 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXBuildFile; fileRef = 687D0E7B90E3443D82B30FE7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */; };
+		C49266F092E645F08759F8E5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXBuildFile; fileRef = 455E5DAEF3524D348F8A6C3B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.cpp */; };
+		C9D52EB0F2024ABEAA469302 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */ = {isa = PBXBuildFile; fileRef = DA97F80D19AA402580C3A601 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */; };
+		D082BED7446C4B029D5FAD25 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.h */ = {isa = PBXBuildFile; fileRef = 1DDE14999EAA409191A38D70 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.h */; };
+		D41B3137A08842CF8DC17C8B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = A892587AA0BA480E9FBDB21C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */; };
+		D5A953AB239344F2851BD9BF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.c */ = {isa = PBXBuildFile; fileRef = E5C2B4485D094E3299A98B7A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.c */; };
+		DE6C8038DA9B413E83C6175C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3ED87347335148948B130D6F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/CMakeLists.txt */; };
+		E07A13594C5A4A768C250EF8 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */ = {isa = PBXBuildFile; fileRef = 7224A296227B429DBBDE6BBE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */; };
+		E1D80EDE0DAE423BB5280938 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.h */ = {isa = PBXBuildFile; fileRef = 5ED07165A224401FB27AF83D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.h */; };
+		E2682E8C678042EF9F94DFF2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/io.c */ = {isa = PBXBuildFile; fileRef = 547E2C1D0719473D95993BC5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/io.c */; };
+		E7D6A59FD9AB43249A3A2C22 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/Test.cpp */ = {isa = PBXBuildFile; fileRef = 78EFECF9C1974D12BCFB7361 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/Test.cpp */; };
+		F1A294C9BE3A4BFEB568DBDB /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */ = {isa = PBXBuildFile; fileRef = A24646DDE4B041638EBDEEF2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */; };
+		F26C60E03C0F42E0B614C6A8 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */ = {isa = PBXBuildFile; fileRef = 3F25B82B342D44E4979F363F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */; };
+		F8CC791E1A8843F2BCF7CAC7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */ = {isa = PBXBuildFile; fileRef = 67B055CE2E584BE99F169FDA /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */; };
+		FB402170216C48AEBA5B77D4 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4392E86DC5284ED6BC3D1B19 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/CMakeLists.txt */; };
+		FC85F4B2DE1A47CB8F776DDC /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */ = {isa = PBXBuildFile; fileRef = F9DE86F4FFA84B7E8EB93FF7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1031F372C51D4C3199DEE158 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		66C99688444D4D4184103B57 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		77277E8A3381428C9978E4E6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EF31F2888F4A4EDC91E15A71 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		32ED357BCBB0481FA7FEE40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEC08164A2A483A961536BC;
+			remoteInfo = gtest;
+		};
+		44EC3947394D47EE98BF2E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5E80B3D775451D83EF043D;
+			remoteInfo = sndlib;
+		};
+		8DF2C579E8574FD2B7EC5B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B825A9706B4E0C85A2DC73;
+			remoteInfo = Vibrato;
+		};
+		918F5EED307B4AD1B30EEEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A901639091D64D4BB48914B5;
+			remoteInfo = AudioFileIO;
+		};
+		9B33D00E3C724616A68D44C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEC08164A2A483A961536BC;
+			remoteInfo = gtest;
+		};
+		AE72C19E6B5743A3A6F1D91F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B825A9706B4E0C85A2DC73;
+			remoteInfo = Vibrato;
+		};
+		C3F3FA9548544F879E55F8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844AE3510A114106BB544D52;
+			remoteInfo = gtest_main;
+		};
+		C68069B3BC2346F785B9A9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB37EAE841E94D4B8D1D2DBB;
+			remoteInfo = MUSI6106Exec;
+		};
+		D2E5E7BE8A3B4AA09104D186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A901639091D64D4BB48914B5;
+			remoteInfo = AudioFileIO;
+		};
+		DF3085C905C14DACBBB317FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFC8FF81E3D4D7596EF7D6A;
+			remoteInfo = ZERO_CHECK;
+		};
+		E668C8752BE748E495D43881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165475351191455AB9B6BB77;
+			remoteInfo = TestExec;
+		};
+		E756BC84F8444052BE86282E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5E80B3D775451D83EF043D;
+			remoteInfo = sndlib;
+		};
+		EA95C9554A22461BBA69E1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEC08164A2A483A961536BC;
+			remoteInfo = gtest;
+		};
+		EC0D51260E434646B672F24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5E80B3D775451D83EF043D;
+			remoteInfo = sndlib;
+		};
+		EE66748F09A24D54AA31255D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A901639091D64D4BB48914B5;
+			remoteInfo = AudioFileIO;
+		};
+		F121891D6461456188D4E01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5E80B3D775451D83EF043D;
+			remoteInfo = sndlib;
+		};
+		F2D75CC3E4D74F27B72B4AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B825A9706B4E0C85A2DC73;
+			remoteInfo = Vibrato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A38E28F24D49C6A6C7AC68 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sound.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sound.c; path = 3rdparty/sndlib/sound.c; sourceTree = SOURCE_ROOT; };
+		090FBDCCD7734ECD8A1BFB6A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xen.c; path = 3rdparty/sndlib/xen.c; sourceTree = SOURCE_ROOT; };
+		0B037720036140339D05A5EF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVoicefxIf.h; path = src/inc/CVoicefxIf.h; sourceTree = SOURCE_ROOT; };
+		0C16C847D9EE4DB49A0822C5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVoicefxIf.cpp; path = src/VoicefxIn/CVoicefxIf.cpp; sourceTree = SOURCE_ROOT; };
+		1223F681611145B4B0431A9E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm2xen.c; path = 3rdparty/sndlib/clm2xen.c; sourceTree = SOURCE_ROOT; };
+		134855DE078243ABB392BA7D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tremolo.cpp; path = src/Tremolo/Tremolo.cpp; sourceTree = SOURCE_ROOT; };
+		185FB22D38E74F31847B9AE7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/Tests/TestExec/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1DDE14999EAA409191A38D70 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm2xen.h; path = 3rdparty/sndlib/clm2xen.h; sourceTree = SOURCE_ROOT; };
+		1F76C52F184D4D5788D97B79 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtestd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DD5D474C2D44218F0C3996 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Tremolo.h; path = src/inc/Tremolo.h; sourceTree = SOURCE_ROOT; };
+		3605C7308A5143BE954E4756 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vct.h; path = 3rdparty/sndlib/vct.h; sourceTree = SOURCE_ROOT; };
+		380F454535F64E2685B792C5 /* MUSI6106Exec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MUSI6106Exec; sourceTree = BUILT_PRODUCTS_DIR; };
+		383C06A198B14A32A26A7E9C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilter.h; path = src/inc/CombFilter.h; sourceTree = SOURCE_ROOT; };
+		39DC33F49D82499B958B7830 /* Vibrato */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libVibrato.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB9478536244435A4F6C173 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "3rdparty/googletest/googletest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		3D8680EEF9B34425A225684C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilter.h; path = src/inc/CombFilter.h; sourceTree = SOURCE_ROOT; };
+		3ED87347335148948B130D6F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/AudioFileIO/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3F25B82B342D44E4979F363F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVoicefxIf.cpp; path = src/VoicefxIn/CVoicefxIf.cpp; sourceTree = SOURCE_ROOT; };
+		4392E86DC5284ED6BC3D1B19 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/MUSI6106Exec/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		455E5DAEF3524D348F8A6C3B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFile.cpp; path = src/AudioFileIO/AudioFile.cpp; sourceTree = SOURCE_ROOT; };
+		48FAB76B373549A282CA41EC /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		547E2C1D0719473D95993BC5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = 3rdparty/sndlib/io.c; sourceTree = SOURCE_ROOT; };
+		59683C35818B4B4EB056ED9F /* sndlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsndlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA3D5AE81DC4924B7749A30 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/_sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = _sndlib.h; path = 3rdparty/sndlib/_sndlib.h; sourceTree = SOURCE_ROOT; };
+		5E644E31F0414A7FA093CAB3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5ED07165A224401FB27AF83D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm.h; path = 3rdparty/sndlib/clm.h; sourceTree = SOURCE_ROOT; };
+		5F87AD18634B45D09C49EE14 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFileIf.cpp; path = src/AudioFileIO/AudioFileIf.cpp; sourceTree = SOURCE_ROOT; };
+		647B863F7DE0432D9EAC4C20 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVoicefxIf.h; path = src/inc/CVoicefxIf.h; sourceTree = SOURCE_ROOT; };
+		67B055CE2E584BE99F169FDA /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tremolo.cpp; path = src/Tremolo/Tremolo.cpp; sourceTree = SOURCE_ROOT; };
+		687D0E7B90E3443D82B30FE7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Tremolo.h; path = src/inc/Tremolo.h; sourceTree = SOURCE_ROOT; };
+		6C4C942EA12E49C19B4AB0F0 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/googletest/googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D2FA7A15E6841228167D23F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		71813AA6FAF34AA09C7390D6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_AudioIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test_AudioIO.cpp; path = src/Tests/Tests/Test_AudioIO.cpp; sourceTree = SOURCE_ROOT; };
+		71911340F4D44197814446FD /* AudioFileIO */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAudioFileIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7224A296227B429DBBDE6BBE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Synthesis.h; path = src/inc/Synthesis.h; sourceTree = SOURCE_ROOT; };
+		76B5EE2DCBCB4EEA96AF3796 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = 3rdparty/googletest/googletest/src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		78EFECF9C1974D12BCFB7361 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/Test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test.cpp; path = src/Tests/TestExec/Test.cpp; sourceTree = SOURCE_ROOT; };
+		844A072CBA4D42279051F3D1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib.h; path = 3rdparty/sndlib/sndlib.h; sourceTree = SOURCE_ROOT; };
+		875131BC92E74137938E4451 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		8E633AC799C34440B0DC18BE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vibrato.h; path = src/inc/Vibrato.h; sourceTree = SOURCE_ROOT; };
+		90B3ADC2386E445D9F84856E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Tremolo.h; path = src/inc/Tremolo.h; sourceTree = SOURCE_ROOT; };
+		914A294C12E4479984C91691 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVoicefxIf.h; path = src/inc/CVoicefxIf.h; sourceTree = SOURCE_ROOT; };
+		9155CC3D16E445EFAD758D09 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilterIf.h; path = src/inc/CombFilterIf.h; sourceTree = SOURCE_ROOT; };
+		9198F6FDA31340DE905BBDD4 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		95A0D4796C3F402E8514C805 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lfo.h; path = src/inc/Lfo.h; sourceTree = SOURCE_ROOT; };
+		95C93E4E37E64305A8574B8B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "clm-strings.h"; path = "3rdparty/sndlib/clm-strings.h"; sourceTree = SOURCE_ROOT; };
+		970F523AA5744E61B88231D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/mus-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mus-config.h"; path = "3rdparty/sndlib/mus-config.h"; sourceTree = SOURCE_ROOT; };
+		98ABB0DD4B584E11B929A292 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Tremolo.h; path = src/inc/Tremolo.h; sourceTree = SOURCE_ROOT; };
+		98ACF38A04C943F5B3964D10 /* TestExec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TestExec; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE5353D17C94A0CBC149ACD /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/sndlib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A24646DDE4B041638EBDEEF2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lfo.h; path = src/inc/Lfo.h; sourceTree = SOURCE_ROOT; };
+		A51AA2E884DA4CB1A0780495 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sndlib-strings.h"; path = "3rdparty/sndlib/sndlib-strings.h"; sourceTree = SOURCE_ROOT; };
+		A7011FB28EAD4E5F9719A8A2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/Vibrato/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A892587AA0BA480E9FBDB21C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		A8D2340E057344A6B9E8A124 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/MUSI6106Exec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MUSI6106Exec.cpp; path = src/MUSI6106Exec/MUSI6106Exec.cpp; sourceTree = SOURCE_ROOT; };
+		A9204C5D6F874B179D3136EE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		A992728E80AB4368A3DDABA5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/headers.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = headers.c; path = 3rdparty/sndlib/headers.c; sourceTree = SOURCE_ROOT; };
+		AAA15D8F93E54D5DA883ED5D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFile.h; path = src/AudioFileIO/AudioFile.h; sourceTree = SOURCE_ROOT; };
+		B444A7EFF07E410F89B77AB3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/unix-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "unix-config.h"; path = "3rdparty/sndlib/unix-config.h"; sourceTree = SOURCE_ROOT; };
+		B6970A31FC2A4ED2BE1A34E5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		BA36691180F94ADC9814282D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio.c; path = 3rdparty/sndlib/audio.c; sourceTree = SOURCE_ROOT; };
+		BBD81DE0204E40808CE8557D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm.c; path = 3rdparty/sndlib/clm.c; sourceTree = SOURCE_ROOT; };
+		CDC8238510194A738F179A48 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tremolo.cpp; path = src/Tremolo/Tremolo.cpp; sourceTree = SOURCE_ROOT; };
+		D1ACF37714D74FE5A7D39A9A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilterIf.h; path = src/inc/CombFilterIf.h; sourceTree = SOURCE_ROOT; };
+		D1EE5B0CE9684D0BA1581883 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sndlib2xen.c; path = 3rdparty/sndlib/sndlib2xen.c; sourceTree = SOURCE_ROOT; };
+		D4F44C86CEF74BAD95EE2FA1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s7.h; path = 3rdparty/sndlib/s7.h; sourceTree = SOURCE_ROOT; };
+		D5E37AB977C545AFAED4C107 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA97F80D19AA402580C3A601 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Synthesis.h; path = src/inc/Synthesis.h; sourceTree = SOURCE_ROOT; };
+		E4989CD78F7B4A55AD01C5F9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vct.c; path = 3rdparty/sndlib/vct.c; sourceTree = SOURCE_ROOT; };
+		E5C2B4485D094E3299A98B7A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s7.c; path = 3rdparty/sndlib/s7.c; sourceTree = SOURCE_ROOT; };
+		E7160A59E6F64998B6CF713F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/googletest/googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E7BCFE9FAE3A484390D47BB6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_Vibrato.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test_Vibrato.cpp; path = src/Tests/Tests/Test_Vibrato.cpp; sourceTree = SOURCE_ROOT; };
+		EB5AC39811DD4A9D8F9B0A79 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVoicefxIf.h; path = src/inc/CVoicefxIf.h; sourceTree = SOURCE_ROOT; };
+		F48E79320F29478D97A49042 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xen.h; path = 3rdparty/sndlib/xen.h; sourceTree = SOURCE_ROOT; };
+		F6CA43E2C723415D8F9ADFD6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		F7822129ABDF4EBD95DF705D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib2xen.h; path = 3rdparty/sndlib/sndlib2xen.h; sourceTree = SOURCE_ROOT; };
+		F89D0BF23512435F8455CC82 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/Vibrato.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vibrato.cpp; path = src/Vibrato/Vibrato.cpp; sourceTree = SOURCE_ROOT; };
+		F9DE86F4FFA84B7E8EB93FF7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vibrato.h; path = src/inc/Vibrato.h; sourceTree = SOURCE_ROOT; };
+		FD789D52CC41416FAC52CF07 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVoicefxIf.cpp; path = src/VoicefxIn/CVoicefxIf.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C67956A97494F3BA0D23592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192F98EE48014E0490AE46A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8435DDBEEA4F40B177109D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BC4783A1E425D98A42209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB26601AD8D456196FC49B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA4C54BE0DC46AC9AB6F2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122C78FD7894D7B80D91BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFD425E28D841D4A332C11D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89D0BF23512435F8455CC82 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/Vibrato.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		16B5EDD89E494A7C854A52AF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1C78F50853F24F0C8BCB8A2F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FA7A15E6841228167D23F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */,
+				914A294C12E4479984C91691 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */,
+				383C06A198B14A32A26A7E9C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */,
+				D1ACF37714D74FE5A7D39A9A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */,
+				95A0D4796C3F402E8514C805 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */,
+				B6970A31FC2A4ED2BE1A34E5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */,
+				7224A296227B429DBBDE6BBE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */,
+				90B3ADC2386E445D9F84856E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */,
+				F6CA43E2C723415D8F9ADFD6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */,
+				875131BC92E74137938E4451 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */,
+				8E633AC799C34440B0DC18BE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3132381754FF47C083203BBC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA15D8F93E54D5DA883ED5D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.h */,
+				647B863F7DE0432D9EAC4C20 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */,
+				98ABB0DD4B584E11B929A292 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4B4CCB63943242F38051E87D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA3D5AE81DC4924B7749A30 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/_sndlib.h */,
+				95C93E4E37E64305A8574B8B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm-strings.h */,
+				5ED07165A224401FB27AF83D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.h */,
+				1DDE14999EAA409191A38D70 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.h */,
+				970F523AA5744E61B88231D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/mus-config.h */,
+				D4F44C86CEF74BAD95EE2FA1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.h */,
+				A51AA2E884DA4CB1A0780495 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib-strings.h */,
+				844A072CBA4D42279051F3D1 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib.h */,
+				F7822129ABDF4EBD95DF705D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.h */,
+				B444A7EFF07E410F89B77AB3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/unix-config.h */,
+				3605C7308A5143BE954E4756 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.h */,
+				F48E79320F29478D97A49042 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5244B5E44D884EC3A3E61E26 /* Vibrato */ = {
+			isa = PBXGroup;
+			children = (
+				0AFD425E28D841D4A332C11D /* Source Files */,
+				1C78F50853F24F0C8BCB8A2F /* Header Files */,
+				A7011FB28EAD4E5F9719A8A2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/CMakeLists.txt */,
+			);
+			name = Vibrato;
+			sourceTree = "<group>";
+		};
+		556DCD56B088480EA21B7BE1 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				81CDAC17E1A24D95A929988F /* Source Files */,
+				E7160A59E6F64998B6CF713F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		59FCFEEFB6F9442DAE0BCED9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B037720036140339D05A5EF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */,
+				23DD5D474C2D44218F0C3996 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6027DFEE0F364F019683DECA /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				85096602EAAB45CC9A39A079 /* Source Files */,
+				6C4C942EA12E49C19B4AB0F0 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		6BD7D65E69724FE6826FFD4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EDE3B43CBFA46A896BE1356 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				16B5EDD89E494A7C854A52AF /* CMake Rules */,
+				5E644E31F0414A7FA093CAB3 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		81CDAC17E1A24D95A929988F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB9478536244435A4F6C173 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		81D319E700A94AD4BFE19FB6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D2340E057344A6B9E8A124 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/MUSI6106Exec.cpp */,
+				67B055CE2E584BE99F169FDA /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */,
+				FD789D52CC41416FAC52CF07 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		84389903CDC142E3B0398D5D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				78EFECF9C1974D12BCFB7361 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/Test.cpp */,
+				71813AA6FAF34AA09C7390D6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_AudioIO.cpp */,
+				E7BCFE9FAE3A484390D47BB6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_Vibrato.cpp */,
+				134855DE078243ABB392BA7D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */,
+				3F25B82B342D44E4979F363F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		85096602EAAB45CC9A39A079 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B5EE2DCBCB4EEA96AF3796 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8ED8BB0751944D9FB8C34697 /* AudioFileIO */ = {
+			isa = PBXGroup;
+			children = (
+				D907DD0D589841A98AE240B4 /* Source Files */,
+				3132381754FF47C083203BBC /* Header Files */,
+				3ED87347335148948B130D6F /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/CMakeLists.txt */,
+			);
+			name = AudioFileIO;
+			sourceTree = "<group>";
+		};
+		91821A07B2FF452ABF33A3E9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				48FAB76B373549A282CA41EC /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/AudioFileIf.h */,
+				EB5AC39811DD4A9D8F9B0A79 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CVoicefxIf.h */,
+				3D8680EEF9B34425A225684C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilter.h */,
+				9155CC3D16E445EFAD758D09 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/CombFilterIf.h */,
+				A24646DDE4B041638EBDEEF2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Lfo.h */,
+				A892587AA0BA480E9FBDB21C /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/RingBuffer.h */,
+				DA97F80D19AA402580C3A601 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Synthesis.h */,
+				687D0E7B90E3443D82B30FE7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Tremolo.h */,
+				A9204C5D6F874B179D3136EE /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Util.h */,
+				9198F6FDA31340DE905BBDD4 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vector.h */,
+				F9DE86F4FFA84B7E8EB93FF7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc/Vibrato.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9F4ED79EEECB4CB6A2A856D9 = {
+			isa = PBXGroup;
+			children = (
+				6EDE3B43CBFA46A896BE1356 /* ALL_BUILD */,
+				F086BAD0D82F469184A230B6 /* MUSI6106Exec */,
+				8ED8BB0751944D9FB8C34697 /* AudioFileIO */,
+				CD91B32FB4C34205B6CD7109 /* sndlib */,
+				5244B5E44D884EC3A3E61E26 /* Vibrato */,
+				6027DFEE0F364F019683DECA /* gtest_main */,
+				556DCD56B088480EA21B7BE1 /* gtest */,
+				DDA202271CBE47F5B6350FD7 /* TestExec */,
+				C6886A586EF0403A870E0DF8 /* Products */,
+				6BD7D65E69724FE6826FFD4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6886A586EF0403A870E0DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71911340F4D44197814446FD /* AudioFileIO */,
+				380F454535F64E2685B792C5 /* MUSI6106Exec */,
+				98ACF38A04C943F5B3964D10 /* TestExec */,
+				39DC33F49D82499B958B7830 /* Vibrato */,
+				1F76C52F184D4D5788D97B79 /* gtest */,
+				D5E37AB977C545AFAED4C107 /* gtest_main */,
+				59683C35818B4B4EB056ED9F /* sndlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD91B32FB4C34205B6CD7109 /* sndlib */ = {
+			isa = PBXGroup;
+			children = (
+				DF47A65010B945648EC28664 /* Source Files */,
+				4B4CCB63943242F38051E87D /* Header Files */,
+				9AE5353D17C94A0CBC149ACD /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/CMakeLists.txt */,
+			);
+			name = sndlib;
+			sourceTree = "<group>";
+		};
+		D907DD0D589841A98AE240B4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				455E5DAEF3524D348F8A6C3B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.cpp */,
+				5F87AD18634B45D09C49EE14 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFileIf.cpp */,
+				CDC8238510194A738F179A48 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */,
+				0C16C847D9EE4DB49A0822C5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DDA202271CBE47F5B6350FD7 /* TestExec */ = {
+			isa = PBXGroup;
+			children = (
+				84389903CDC142E3B0398D5D /* Source Files */,
+				59FCFEEFB6F9442DAE0BCED9 /* Header Files */,
+				185FB22D38E74F31847B9AE7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/CMakeLists.txt */,
+			);
+			name = TestExec;
+			sourceTree = "<group>";
+		};
+		DF47A65010B945648EC28664 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA36691180F94ADC9814282D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/audio.c */,
+				BBD81DE0204E40808CE8557D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.c */,
+				1223F681611145B4B0431A9E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.c */,
+				A992728E80AB4368A3DDABA5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/headers.c */,
+				547E2C1D0719473D95993BC5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/io.c */,
+				E5C2B4485D094E3299A98B7A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.c */,
+				D1EE5B0CE9684D0BA1581883 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.c */,
+				02A38E28F24D49C6A6C7AC68 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sound.c */,
+				E4989CD78F7B4A55AD01C5F9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.c */,
+				090FBDCCD7734ECD8A1BFB6A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F086BAD0D82F469184A230B6 /* MUSI6106Exec */ = {
+			isa = PBXGroup;
+			children = (
+				81D319E700A94AD4BFE19FB6 /* Source Files */,
+				91821A07B2FF452ABF33A3E9 /* Header Files */,
+				4392E86DC5284ED6BC3D1B19 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/CMakeLists.txt */,
+			);
+			name = MUSI6106Exec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165475351191455AB9B6BB77 /* TestExec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F4B9FC068C42DFAC45A3EB /* Build configuration list for PBXNativeTarget "TestExec" */;
+			buildPhases = (
+				CB6CD00A4A9E40DA9A8A7338 /* Sources */,
+				F122C78FD7894D7B80D91BFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A20616FA0224AD7A77A6140 /* PBXTargetDependency */,
+				E0F6EB44BC68435E9A33E47A /* PBXTargetDependency */,
+				AB2F36E6C7F044A5B25A05CF /* PBXTargetDependency */,
+				D75913371361456581266AB3 /* PBXTargetDependency */,
+			);
+			name = TestExec;
+			productName = TestExec;
+			productReference = 98ACF38A04C943F5B3964D10 /* TestExec */;
+			productType = "com.apple.product-type.tool";
+		};
+		844AE3510A114106BB544D52 /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EC79C8B7D44C2E9ACDA6B3 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				7E60CD32F3384C16B94EFB12 /* Sources */,
+				0C67956A97494F3BA0D23592 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96248DC17CF4E5B99769494 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = D5E37AB977C545AFAED4C107 /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94B825A9706B4E0C85A2DC73 /* Vibrato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9563F1530A764728A268B7C0 /* Build configuration list for PBXNativeTarget "Vibrato" */;
+			buildPhases = (
+				E5F494875AD44B89B9D5459A /* Sources */,
+				CBB26601AD8D456196FC49B2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vibrato;
+			productName = Vibrato;
+			productReference = 39DC33F49D82499B958B7830 /* Vibrato */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A5E80B3D775451D83EF043D /* sndlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C88C21FF0164D0D8CB0BA04 /* Build configuration list for PBXNativeTarget "sndlib" */;
+			buildPhases = (
+				5EF3E05E148A42F69B8249FC /* Sources */,
+				5C8435DDBEEA4F40B177109D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sndlib;
+			productName = sndlib;
+			productReference = 59683C35818B4B4EB056ED9F /* sndlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A901639091D64D4BB48914B5 /* AudioFileIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8750947B54CE592EB1555 /* Build configuration list for PBXNativeTarget "AudioFileIO" */;
+			buildPhases = (
+				56CF0B5A0EDF4CB0B0625A80 /* Sources */,
+				A72BC4783A1E425D98A42209 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B04233796AA4BCE8C7F1D41 /* PBXTargetDependency */,
+			);
+			name = AudioFileIO;
+			productName = AudioFileIO;
+			productReference = 71911340F4D44197814446FD /* AudioFileIO */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DAEC08164A2A483A961536BC /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E83F9514884AC3B51E0F9A /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				8E8321E1AAFC427AAF25E3C4 /* Sources */,
+				192F98EE48014E0490AE46A2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 1F76C52F184D4D5788D97B79 /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB37EAE841E94D4B8D1D2DBB /* MUSI6106Exec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F9B95D87494BEC9034601F /* Build configuration list for PBXNativeTarget "MUSI6106Exec" */;
+			buildPhases = (
+				8E00F81758304B7E9E210B7E /* Sources */,
+				EBA4C54BE0DC46AC9AB6F2F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021C9B7C14C749BE97A21BA0 /* PBXTargetDependency */,
+				9C73DC54B410417BAEF16D0F /* PBXTargetDependency */,
+				6707D54037EB46B5A6405583 /* PBXTargetDependency */,
+			);
+			name = MUSI6106Exec;
+			productName = MUSI6106Exec;
+			productReference = 380F454535F64E2685B792C5 /* MUSI6106Exec */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36B5FE5C9B194F2AB713EF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 8CDDE9A383044831838E40BE /* Build configuration list for PBXProject "MUSI6106" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				66C99688444D4D4184103B57 /* Debug */,
+				1031F372C51D4C3199DEE158 /* Release */,
+				EF31F2888F4A4EDC91E15A71 /* MinSizeRel */,
+				77277E8A3381428C9978E4E6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9F4ED79EEECB4CB6A2A856D9;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				57B0AD614075464DB9F79B8B /* ALL_BUILD */,
+				A901639091D64D4BB48914B5 /* AudioFileIO */,
+				FB37EAE841E94D4B8D1D2DBB /* MUSI6106Exec */,
+				165475351191455AB9B6BB77 /* TestExec */,
+				94B825A9706B4E0C85A2DC73 /* Vibrato */,
+				CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */,
+				DAEC08164A2A483A961536BC /* gtest */,
+				844AE3510A114106BB544D52 /* gtest_main */,
+				9A5E80B3D775451D83EF043D /* sndlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		89D6EAF4B8D1FE7EED616B00 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ADB5501FBA10E4AEEDA6F89D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56CF0B5A0EDF4CB0B0625A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49266F092E645F08759F8E5 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFile.cpp */,
+				67DEDA8260B94977A602A2DC /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/AudioFileIO/AudioFileIf.cpp */,
+				A14A4AA4E7F24C3C90AA6F3A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */,
+				4FDF35A530894A8FAB0C9E85 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3E05E148A42F69B8249FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586661BCEAC248BCAAA958DA /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/audio.c */,
+				8F20572A17F84D7AB96ED556 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm.c */,
+				35A4BE4DD6894E43966BA62D /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/clm2xen.c */,
+				6C93FB9F32FA4E4B9FA2F624 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/headers.c */,
+				E2682E8C678042EF9F94DFF2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/io.c */,
+				D5A953AB239344F2851BD9BF /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/s7.c */,
+				7CEBD749708C44BAAAB87B38 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sndlib2xen.c */,
+				7F2310248F704C33A94719D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/sound.c */,
+				34B4CEB9F1F04302A7AE85FD /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/vct.c */,
+				58B43333FEC04E83869AD9D9 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib/xen.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E60CD32F3384C16B94EFB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A12BA31E1FE4E4FB9225F7A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E00F81758304B7E9E210B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC2E794D24C4774A977A73A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/MUSI6106Exec/MUSI6106Exec.cpp */,
+				F8CC791E1A8843F2BCF7CAC7 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */,
+				AC13B8AA45EB4B8B92A2A02A /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8321E1AAFC427AAF25E3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61207AAF67AF4711AB139854 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6CD00A4A9E40DA9A8A7338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D6A59FD9AB43249A3A2C22 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/TestExec/Test.cpp */,
+				7B4881F01F2F4912AB513E74 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_AudioIO.cpp */,
+				9E8D7B22584B4295BFD410F8 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tests/Tests/Test_Vibrato.cpp */,
+				9063A1032F914DB3A8F8EFB2 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Tremolo/Tremolo.cpp */,
+				F26C60E03C0F42E0B614C6A8 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/VoicefxIn/CVoicefxIf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F494875AD44B89B9D5459A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACE1E287F6C4FEB9C2C9047 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/Vibrato/Vibrato.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021C9B7C14C749BE97A21BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A901639091D64D4BB48914B5 /* AudioFileIO */;
+			targetProxy = D2E5E7BE8A3B4AA09104D186 /* PBXContainerItemProxy */;
+		};
+		074F1596E0D54D0DA9221C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A901639091D64D4BB48914B5 /* AudioFileIO */;
+			targetProxy = 918F5EED307B4AD1B30EEEBA /* PBXContainerItemProxy */;
+		};
+		0A20616FA0224AD7A77A6140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A901639091D64D4BB48914B5 /* AudioFileIO */;
+			targetProxy = EE66748F09A24D54AA31255D /* PBXContainerItemProxy */;
+		};
+		1C75BEF935A7486F9455790F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB37EAE841E94D4B8D1D2DBB /* MUSI6106Exec */;
+			targetProxy = C68069B3BC2346F785B9A9E6 /* PBXContainerItemProxy */;
+		};
+		2B04233796AA4BCE8C7F1D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5E80B3D775451D83EF043D /* sndlib */;
+			targetProxy = 44EC3947394D47EE98BF2E85 /* PBXContainerItemProxy */;
+		};
+		6707D54037EB46B5A6405583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B825A9706B4E0C85A2DC73 /* Vibrato */;
+			targetProxy = 8DF2C579E8574FD2B7EC5B8A /* PBXContainerItemProxy */;
+		};
+		6D8EADE35C164BE88DFC99B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844AE3510A114106BB544D52 /* gtest_main */;
+			targetProxy = C3F3FA9548544F879E55F8C7 /* PBXContainerItemProxy */;
+		};
+		9C73DC54B410417BAEF16D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5E80B3D775451D83EF043D /* sndlib */;
+			targetProxy = F121891D6461456188D4E01A /* PBXContainerItemProxy */;
+		};
+		A7AA322613C64AA889117236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */;
+			targetProxy = DF3085C905C14DACBBB317FB /* PBXContainerItemProxy */;
+		};
+		A96248DC17CF4E5B99769494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEC08164A2A483A961536BC /* gtest */;
+			targetProxy = 32ED357BCBB0481FA7FEE40E /* PBXContainerItemProxy */;
+		};
+		AB2F36E6C7F044A5B25A05CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B825A9706B4E0C85A2DC73 /* Vibrato */;
+			targetProxy = AE72C19E6B5743A3A6F1D91F /* PBXContainerItemProxy */;
+		};
+		BA7F2659029D4BB59755F7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5E80B3D775451D83EF043D /* sndlib */;
+			targetProxy = E756BC84F8444052BE86282E /* PBXContainerItemProxy */;
+		};
+		D58AC08C862E41D9A971A243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B825A9706B4E0C85A2DC73 /* Vibrato */;
+			targetProxy = F2D75CC3E4D74F27B72B4AFA /* PBXContainerItemProxy */;
+		};
+		D75913371361456581266AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEC08164A2A483A961536BC /* gtest */;
+			targetProxy = EA95C9554A22461BBA69E1EB /* PBXContainerItemProxy */;
+		};
+		D7ECEF259F844970A185FE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEC08164A2A483A961536BC /* gtest */;
+			targetProxy = 9B33D00E3C724616A68D44C6 /* PBXContainerItemProxy */;
+		};
+		DF25F1FFED894D95ABA47A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165475351191455AB9B6BB77 /* TestExec */;
+			targetProxy = E668C8752BE748E495D43881 /* PBXContainerItemProxy */;
+		};
+		E0F6EB44BC68435E9A33E47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5E80B3D775451D83EF043D /* sndlib */;
+			targetProxy = EC0D51260E434646B672F24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0057F9019AD4427082B18340 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		03B7D66E107849D9AE3B7F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		122BDF3F640B4E8CBDCA19C1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1B747F4FCF694A0683939887 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/build";
+			};
+			name = MinSizeRel;
+		};
+		2F3F50A7C1104CB5B9966B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2F7E2821CB4A4071AB0F957B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		37144AEFD0DF4D938C01EF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3D0F6FC05E144AA99C69FA9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		481BD67550864C7D84E1FA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/build";
+			};
+			name = Release;
+		};
+		4D0C91477F0A477C853C98EA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A408B065C394EBD89FC8ECE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5BC8F0ED4DD54D92BC4FD98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5FB39294F730431A91FF3A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libgtest.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestExec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/TestExec";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		67A804F6B7A742E099B98837 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6A7ED912C5BA4C04A3029809 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D06374A7E2649A1A0ACC642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8132EACB6F87406B9272D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8B392A527226440D88C80826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtestd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		973BEEF1C6C54EEA91188D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		97EB751CF7934F04A4A52769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ACEAACDD11E04190AFE37A0A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C562886844BC4819BF6BA4C1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/lib/MinSizeRel/libgtest.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestExec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/TestExec";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C9131A690E134CF3BB08EC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/build";
+			};
+			name = Debug;
+		};
+		CFF8CDD4C897430AAC3CD349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CFF925799D20404597436FB5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D0D308A4544C47498AB1E7DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D63DC1FB4D0E45C59DDEB17F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D89C91E8B49F4498BE770EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libgtestd.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestExec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/TestExec";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D9F5B33E53A14730B739DABA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/relwithdebinfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libgtest.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestExec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/TestExec";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC97812B1C4841C69689A909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD3AA454DA534CE2A834D08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DE81A433B382466B85321851 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E218373065334921B54BF736 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E39FB11744C44778B772CEA4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/relwithdebinfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EAC1811EA2E64AFE9CEF8B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F0F9BA810B044C61AF67945A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F1026BE70CED4A84A0FBD1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F349E4A1C66F4B99995D0875 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/src/inc","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel/libVibrato.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel/libAudioFileIO.a","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel/libsndlib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F758A747D6804108BDB08D54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/sndlib","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FDDAC4B9296C4B7CA825DEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B8750947B54CE592EB1555 /* Build configuration list for PBXNativeTarget "AudioFileIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97812B1C4841C69689A909 /* Debug */,
+				6D06374A7E2649A1A0ACC642 /* Release */,
+				ACEAACDD11E04190AFE37A0A /* MinSizeRel */,
+				4D0C91477F0A477C853C98EA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32F4B9FC068C42DFAC45A3EB /* Build configuration list for PBXNativeTarget "TestExec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C91E8B49F4498BE770EB4 /* Debug */,
+				5FB39294F730431A91FF3A37 /* Release */,
+				C562886844BC4819BF6BA4C1 /* MinSizeRel */,
+				D9F5B33E53A14730B739DABA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		58F9B95D87494BEC9034601F /* Build configuration list for PBXNativeTarget "MUSI6106Exec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3F50A7C1104CB5B9966B3F /* Debug */,
+				5BC8F0ED4DD54D92BC4FD98A /* Release */,
+				F349E4A1C66F4B99995D0875 /* MinSizeRel */,
+				E39FB11744C44778B772CEA4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C88C21FF0164D0D8CB0BA04 /* Build configuration list for PBXNativeTarget "sndlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3AA454DA534CE2A834D08B /* Debug */,
+				F1026BE70CED4A84A0FBD1F3 /* Release */,
+				F758A747D6804108BDB08D54 /* MinSizeRel */,
+				D0D308A4544C47498AB1E7DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8CDDE9A383044831838E40BE /* Build configuration list for PBXProject "MUSI6106" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9131A690E134CF3BB08EC5A /* Debug */,
+				481BD67550864C7D84E1FA5C /* Release */,
+				1B747F4FCF694A0683939887 /* MinSizeRel */,
+				5A408B065C394EBD89FC8ECE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9563F1530A764728A268B7C0 /* Build configuration list for PBXNativeTarget "Vibrato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B7D66E107849D9AE3B7F0F /* Debug */,
+				973BEEF1C6C54EEA91188D35 /* Release */,
+				2F7E2821CB4A4071AB0F957B /* MinSizeRel */,
+				D63DC1FB4D0E45C59DDEB17F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C10AA097C88A4F13830C4927 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDAC4B9296C4B7CA825DEBB /* Debug */,
+				EAC1811EA2E64AFE9CEF8B2F /* Release */,
+				122BDF3F640B4E8CBDCA19C1 /* MinSizeRel */,
+				67A804F6B7A742E099B98837 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2E83F9514884AC3B51E0F9A /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B392A527226440D88C80826 /* Debug */,
+				37144AEFD0DF4D938C01EF3C /* Release */,
+				E218373065334921B54BF736 /* MinSizeRel */,
+				CFF925799D20404597436FB5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4EC79C8B7D44C2E9ACDA6B3 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EB751CF7934F04A4A52769 /* Debug */,
+				F0F9BA810B044C61AF67945A /* Release */,
+				6A7ED912C5BA4C04A3029809 /* MinSizeRel */,
+				DE81A433B382466B85321851 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDDACFF9DE1E463D9D70795B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8CDD4C897430AAC3CD349 /* Debug */,
+				8132EACB6F87406B9272D4F3 /* Release */,
+				3D0F6FC05E144AA99C69FA9D /* MinSizeRel */,
+				0057F9019AD4427082B18340 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36B5FE5C9B194F2AB713EF40 /* Project object */;
+}

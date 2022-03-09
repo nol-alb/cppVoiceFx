@@ -1,0 +1,1220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "MUSI6106Exec",
+					"jsonFile" : "directory-MUSI6106Exec-Debug-05f61c4cde991075f0dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/MUSI6106Exec",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "AudioFileIO",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-AudioFileIO-Debug-8ee650ddb77e2e15d0b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/AudioFileIO",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "AudioFileIO/sndlib",
+					"jsonFile" : "directory-AudioFileIO.sndlib-Debug-e7b76e5c99dd9c130f30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "3rdparty/sndlib",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Vibrato",
+					"jsonFile" : "directory-Vibrato-Debug-6af08a87b4bf0ff5a827.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Vibrato",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-googletest-Debug-f7581bee50b36197ab39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"jsonFile" : "directory-googletest.googletest-Debug-d1063e9b6e466b5dd9b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "3rdparty/googletest/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "TestExec",
+					"jsonFile" : "directory-TestExec-Debug-0478bc8a13cca057ba1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Tests/TestExec",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					],
+					"name" : "MUSI6106",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-dd15d3277efa80b76b15.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ALL_BUILD-Debug-4b4d663104fdda57909d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ALL_BUILD-Debug-6d83129b349d93851ca9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "AudioFileIO::@14733eaaa109906c281b",
+					"jsonFile" : "target-AudioFileIO-Debug-2bfb1891cb353ed704db.json",
+					"name" : "AudioFileIO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MUSI6106Exec::@1ca4e22c5ff24413807f",
+					"jsonFile" : "target-MUSI6106Exec-Debug-c28857ece419383b7006.json",
+					"name" : "MUSI6106Exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "TestExec::@fd18b2a07275661ebf83",
+					"jsonFile" : "target-TestExec-Debug-5d665f37304af328dafb.json",
+					"name" : "TestExec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Vibrato::@54b572d1746073f821f4",
+					"jsonFile" : "target-Vibrato-Debug-687b767598417ce41253.json",
+					"name" : "Vibrato",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-a716c2ea5ef625411014.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ZERO_CHECK::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ZERO_CHECK-Debug-b5c66f360a7567ef0ab1.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ZERO_CHECK::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ZERO_CHECK-Debug-47ad447753ab60d9c201.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-Debug-a21729e2c7ece5aa1038.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-Debug-a51b77f6ff41a98c4518.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sndlib::@bef705fde8a82da36e5a",
+					"jsonFile" : "target-sndlib-Debug-8a6982354f15e2469d58.json",
+					"name" : "sndlib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						7
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "MUSI6106Exec",
+					"jsonFile" : "directory-MUSI6106Exec-Release-05f61c4cde991075f0dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/MUSI6106Exec",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "AudioFileIO",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-AudioFileIO-Release-8ee650ddb77e2e15d0b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/AudioFileIO",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "AudioFileIO/sndlib",
+					"jsonFile" : "directory-AudioFileIO.sndlib-Release-e7b76e5c99dd9c130f30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "3rdparty/sndlib",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Vibrato",
+					"jsonFile" : "directory-Vibrato-Release-6af08a87b4bf0ff5a827.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Vibrato",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-googletest-Release-f7581bee50b36197ab39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"jsonFile" : "directory-googletest.googletest-Release-d1063e9b6e466b5dd9b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "3rdparty/googletest/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "TestExec",
+					"jsonFile" : "directory-TestExec-Release-0478bc8a13cca057ba1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Tests/TestExec",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					],
+					"name" : "MUSI6106",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-dd15d3277efa80b76b15.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ALL_BUILD-Release-4b4d663104fdda57909d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ALL_BUILD-Release-6d83129b349d93851ca9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "AudioFileIO::@14733eaaa109906c281b",
+					"jsonFile" : "target-AudioFileIO-Release-02ff38274087592d162c.json",
+					"name" : "AudioFileIO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MUSI6106Exec::@1ca4e22c5ff24413807f",
+					"jsonFile" : "target-MUSI6106Exec-Release-1f509f5c1f04eb50b475.json",
+					"name" : "MUSI6106Exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "TestExec::@fd18b2a07275661ebf83",
+					"jsonFile" : "target-TestExec-Release-d9dcac275bbec43b0a45.json",
+					"name" : "TestExec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Vibrato::@54b572d1746073f821f4",
+					"jsonFile" : "target-Vibrato-Release-34691a76d2b9e6037442.json",
+					"name" : "Vibrato",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-a716c2ea5ef625411014.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ZERO_CHECK::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ZERO_CHECK-Release-b5c66f360a7567ef0ab1.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ZERO_CHECK::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ZERO_CHECK-Release-47ad447753ab60d9c201.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-Release-c8a5f6e7e68a75244f61.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-Release-f965be634660f83e39c7.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sndlib::@bef705fde8a82da36e5a",
+					"jsonFile" : "target-sndlib-Release-3cea41bba5af2a9a585e.json",
+					"name" : "sndlib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						7
+					],
+					"jsonFile" : "directory-.-MinSizeRel-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "MUSI6106Exec",
+					"jsonFile" : "directory-MUSI6106Exec-MinSizeRel-05f61c4cde991075f0dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/MUSI6106Exec",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "AudioFileIO",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-AudioFileIO-MinSizeRel-8ee650ddb77e2e15d0b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/AudioFileIO",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "AudioFileIO/sndlib",
+					"jsonFile" : "directory-AudioFileIO.sndlib-MinSizeRel-e7b76e5c99dd9c130f30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "3rdparty/sndlib",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Vibrato",
+					"jsonFile" : "directory-Vibrato-MinSizeRel-6af08a87b4bf0ff5a827.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Vibrato",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-googletest-MinSizeRel-f7581bee50b36197ab39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"jsonFile" : "directory-googletest.googletest-MinSizeRel-d1063e9b6e466b5dd9b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "3rdparty/googletest/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "TestExec",
+					"jsonFile" : "directory-TestExec-MinSizeRel-0478bc8a13cca057ba1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Tests/TestExec",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					],
+					"name" : "MUSI6106",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-dd15d3277efa80b76b15.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4b4d663104fdda57909d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6d83129b349d93851ca9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "AudioFileIO::@14733eaaa109906c281b",
+					"jsonFile" : "target-AudioFileIO-MinSizeRel-aff47aa87b96e18419d5.json",
+					"name" : "AudioFileIO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MUSI6106Exec::@1ca4e22c5ff24413807f",
+					"jsonFile" : "target-MUSI6106Exec-MinSizeRel-c6a0f7a5ab194962bd0c.json",
+					"name" : "MUSI6106Exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "TestExec::@fd18b2a07275661ebf83",
+					"jsonFile" : "target-TestExec-MinSizeRel-e030fa2c25407445d814.json",
+					"name" : "TestExec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Vibrato::@54b572d1746073f821f4",
+					"jsonFile" : "target-Vibrato-MinSizeRel-963d41e776769b3d5364.json",
+					"name" : "Vibrato",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-a716c2ea5ef625411014.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ZERO_CHECK::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-b5c66f360a7567ef0ab1.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ZERO_CHECK::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-47ad447753ab60d9c201.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-MinSizeRel-987dccb6a2c3881e6662.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-MinSizeRel-482b6246a8c191dd7481.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sndlib::@bef705fde8a82da36e5a",
+					"jsonFile" : "target-sndlib-MinSizeRel-4aa1939499531cc7dd51.json",
+					"name" : "sndlib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5,
+						7
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "MUSI6106Exec",
+					"jsonFile" : "directory-MUSI6106Exec-RelWithDebInfo-05f61c4cde991075f0dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/MUSI6106Exec",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "AudioFileIO",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-AudioFileIO-RelWithDebInfo-8ee650ddb77e2e15d0b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/AudioFileIO",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "AudioFileIO/sndlib",
+					"jsonFile" : "directory-AudioFileIO.sndlib-RelWithDebInfo-e7b76e5c99dd9c130f30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "3rdparty/sndlib",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Vibrato",
+					"jsonFile" : "directory-Vibrato-RelWithDebInfo-6af08a87b4bf0ff5a827.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Vibrato",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-googletest-RelWithDebInfo-f7581bee50b36197ab39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"jsonFile" : "directory-googletest.googletest-RelWithDebInfo-d1063e9b6e466b5dd9b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "3rdparty/googletest/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "TestExec",
+					"jsonFile" : "directory-TestExec-RelWithDebInfo-0478bc8a13cca057ba1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Tests/TestExec",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					],
+					"name" : "MUSI6106",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-dd15d3277efa80b76b15.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4b4d663104fdda57909d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6d83129b349d93851ca9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "AudioFileIO::@14733eaaa109906c281b",
+					"jsonFile" : "target-AudioFileIO-RelWithDebInfo-6c653f94f893bd30ca45.json",
+					"name" : "AudioFileIO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MUSI6106Exec::@1ca4e22c5ff24413807f",
+					"jsonFile" : "target-MUSI6106Exec-RelWithDebInfo-e69de9fc71909e488f07.json",
+					"name" : "MUSI6106Exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "TestExec::@fd18b2a07275661ebf83",
+					"jsonFile" : "target-TestExec-RelWithDebInfo-32515ebbbe2379210af8.json",
+					"name" : "TestExec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Vibrato::@54b572d1746073f821f4",
+					"jsonFile" : "target-Vibrato-RelWithDebInfo-6ef3545789a4813eb8b3.json",
+					"name" : "Vibrato",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-a716c2ea5ef625411014.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ZERO_CHECK::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-b5c66f360a7567ef0ab1.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ZERO_CHECK::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-47ad447753ab60d9c201.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-RelWithDebInfo-0a817ffd6fb53274f300.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-RelWithDebInfo-b6096412739b55ccfced.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sndlib::@bef705fde8a82da36e5a",
+					"jsonFile" : "target-sndlib-RelWithDebInfo-a01a54352c7f31d67fd9.json",
+					"name" : "sndlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug",
+		"source" : "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

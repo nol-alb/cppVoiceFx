@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		57B0AD614075464DB9F79B8B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D8530DECE4B401B858EF9D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2294155286BB87E1007B3263 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				72B9C76960144B8285C0735F /* PBXTargetDependency */,
+				F60787E988E44E2DB71FC041 /* PBXTargetDependency */,
+				05566B00E5E440539010227C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B08B0DDE4F140928DAE1454 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4B5A31B95DC389FC46E14A82 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00657E22F4634289A4D77C5E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 06C10EF5EB7C43C982E76519 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */; };
+		66348683832C4D1487794689 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 806D011341F24CCAAF6F7436 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */; };
+		6F3084AA7EEB461E9B186B01 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 4C6CC25A6FFE4C1F9A7E3A12 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */; };
+		8A4C80D3CE5A479C8C4D257B /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 163BD71CC0AE488A82F67EB6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		17D5BAF7CA804F72B75E971A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		18198446C5CE4AF9B27B8B5E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7CAD79ED3DF941B18DC90950 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F6CDB8D7FBCE4E86A30D3857 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04E46C15785C49278834CCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFC8FF81E3D4D7596EF7D6A;
+			remoteInfo = ZERO_CHECK;
+		};
+		1D7BEFEED6654955891F89FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844AE3510A114106BB544D52;
+			remoteInfo = gtest_main;
+		};
+		5B60F7597303449CA2687922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFC8FF81E3D4D7596EF7D6A;
+			remoteInfo = ZERO_CHECK;
+		};
+		65E567566D6E47419A0D644F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFC8FF81E3D4D7596EF7D6A;
+			remoteInfo = ZERO_CHECK;
+		};
+		90712E253D484E2AA65F4126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEC08164A2A483A961536BC;
+			remoteInfo = gtest;
+		};
+		F0137D3590E14A81A3843C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEC08164A2A483A961536BC;
+			remoteInfo = gtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C10EF5EB7C43C982E76519 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		163BD71CC0AE488A82F67EB6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4C6CC25A6FFE4C1F9A7E3A12 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		67D2E74ADF094BBBB8EA4D3E /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtestd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C641EC4FC548B79EC908FD /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		806D011341F24CCAAF6F7436 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8A36CB6C07E34306BC914852 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9422221BAC834E9F8EBD2BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC286369B64E78A7A781B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4ABE4736A449CB86CA8275 = {
+			isa = PBXGroup;
+			children = (
+				BCD6C98B76A346E1ABAA7F32 /* gtest_main */,
+				DDAC075FD4D74C89A0D1202E /* gtest */,
+				787E9885D31E4F25B7616E96 /* ALL_BUILD */,
+				FFA73A86223B4F4FB16E05ED /* Products */,
+				C55DAACEABF8409FB8D12AA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		787E9885D31E4F25B7616E96 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7C38836CA13C4E56B5501CFA /* CMake Rules */,
+				8A36CB6C07E34306BC914852 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		7C38836CA13C4E56B5501CFA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AA88413A8AB847E69670B90B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C10EF5EB7C43C982E76519 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BCD6C98B76A346E1ABAA7F32 /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				DA67CC77962C44619B90458D /* Source Files */,
+				806D011341F24CCAAF6F7436 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		C55DAACEABF8409FB8D12AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA67CC77962C44619B90458D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6CC25A6FFE4C1F9A7E3A12 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DDAC075FD4D74C89A0D1202E /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				AA88413A8AB847E69670B90B /* Source Files */,
+				163BD71CC0AE488A82F67EB6 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		FFA73A86223B4F4FB16E05ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D2E74ADF094BBBB8EA4D3E /* gtest */,
+				77C641EC4FC548B79EC908FD /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844AE3510A114106BB544D52 /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429D835848F04DFF9D6A47D7 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				1A61CE7B5FBD4AD19F0527A2 /* Sources */,
+				9422221BAC834E9F8EBD2BBB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1C49E259F64FC186903E89 /* PBXTargetDependency */,
+				C696445216DA4C49A9D635BD /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 77C641EC4FC548B79EC908FD /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DAEC08164A2A483A961536BC /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A08CBE7C5D4A2D842DC4ED /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				D6D333680FCA42FD93B3BAD3 /* Sources */,
+				D9DC286369B64E78A7A781B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6AE6D34398F4FE79E250D0F /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 67D2E74ADF094BBBB8EA4D3E /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA78F5BAA8A4AE6BDAC5E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = CF52588105BD401CA8D4550B /* Build configuration list for PBXProject "gtest" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F6CDB8D7FBCE4E86A30D3857 /* Debug */,
+				7CAD79ED3DF941B18DC90950 /* Release */,
+				18198446C5CE4AF9B27B8B5E /* MinSizeRel */,
+				17D5BAF7CA804F72B75E971A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5A4ABE4736A449CB86CA8275;
+			projectDirPath = ../../../3rdparty/googletest/googletest;
+			projectRoot = "";
+			targets = (
+				57B0AD614075464DB9F79B8B /* ALL_BUILD */,
+				CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */,
+				DAEC08164A2A483A961536BC /* gtest */,
+				844AE3510A114106BB544D52 /* gtest_main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2294155286BB87E1007B3263 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4B5A31B95DC389FC46E14A82 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest
+  make -f /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A61CE7B5FBD4AD19F0527A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3084AA7EEB461E9B186B01 /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D333680FCA42FD93B3BAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00657E22F4634289A4D77C5E /* /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05566B00E5E440539010227C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */;
+			targetProxy = 5B60F7597303449CA2687922 /* PBXContainerItemProxy */;
+		};
+		72B9C76960144B8285C0735F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844AE3510A114106BB544D52 /* gtest_main */;
+			targetProxy = 1D7BEFEED6654955891F89FD /* PBXContainerItemProxy */;
+		};
+		9A1C49E259F64FC186903E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEC08164A2A483A961536BC /* gtest */;
+			targetProxy = F0137D3590E14A81A3843C0E /* PBXContainerItemProxy */;
+		};
+		C696445216DA4C49A9D635BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */;
+			targetProxy = 65E567566D6E47419A0D644F /* PBXContainerItemProxy */;
+		};
+		F60787E988E44E2DB71FC041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAEC08164A2A483A961536BC /* gtest */;
+			targetProxy = 90712E253D484E2AA65F4126 /* PBXContainerItemProxy */;
+		};
+		F6AE6D34398F4FE79E250D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFC8FF81E3D4D7596EF7D6A /* ZERO_CHECK */;
+			targetProxy = 04E46C15785C49278834CCD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01A0780E8E23497EBBF4D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/build";
+			};
+			name = Release;
+		};
+		109B295E38764C4FA0071E2E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1A57C5ED47EB4359866604CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		25FCCC25248E4FFD8A78499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2A5D048D610B4C369B29A813 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		35019B4080134D57994CEFF8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3CFA395CF2CA45C68A48865E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		416F40F10D0B44C09DC7C186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4954A34E45BA42769B18750E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4D2D55DD943A4630AF439F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4E84BD9F19CC437D83A6A73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4FC57DC117A748A3A773F7D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		770A8C45CB54425187CFF89C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/build";
+			};
+			name = MinSizeRel;
+		};
+		7A04D89DB28D48B985DD33DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		993329A785E349F5B23F26A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A3F27E1076234FCAA4C7149F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/build";
+			};
+			name = Debug;
+		};
+		ACC78579F5C14B30AC637173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BD41CE7BD43449398C85FEC6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E767A8963562457E85E4978B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest/include","/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/3rdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtestd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F1E896DB691F430CA55EF41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A08CBE7C5D4A2D842DC4ED /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E767A8963562457E85E4978B /* Debug */,
+				4D2D55DD943A4630AF439F39 /* Release */,
+				109B295E38764C4FA0071E2E /* MinSizeRel */,
+				3CFA395CF2CA45C68A48865E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D8530DECE4B401B858EF9D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4954A34E45BA42769B18750E /* Debug */,
+				F1E896DB691F430CA55EF41C /* Release */,
+				1A57C5ED47EB4359866604CC /* MinSizeRel */,
+				7A04D89DB28D48B985DD33DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		429D835848F04DFF9D6A47D7 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416F40F10D0B44C09DC7C186 /* Debug */,
+				4E84BD9F19CC437D83A6A73E /* Release */,
+				4FC57DC117A748A3A773F7D6 /* MinSizeRel */,
+				2A5D048D610B4C369B29A813 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B08B0DDE4F140928DAE1454 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC78579F5C14B30AC637173 /* Debug */,
+				25FCCC25248E4FFD8A78499A /* Release */,
+				993329A785E349F5B23F26A0 /* MinSizeRel */,
+				35019B4080134D57994CEFF8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF52588105BD401CA8D4550B /* Build configuration list for PBXProject "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F27E1076234FCAA4C7149F /* Debug */,
+				01A0780E8E23497EBBF4D99F /* Release */,
+				770A8C45CB54425187CFF89C /* MinSizeRel */,
+				BD41CE7BD43449398C85FEC6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA78F5BAA8A4AE6BDAC5E97 /* Project object */;
+}

@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -G Xcode /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato
+-- ******************
+-- Targets added:
+-- MUSI6106Exec
+-- AudioFileIO
+-- Vibrato
+-- googletest
+-- TestExec
+-- ******************
+-- 
+-- MUSI6106Version:0.0.0.1
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug

@@ -1,0 +1,13 @@
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/MUSI6106Exec/CMakeFiles/MUSI6106Exec.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO/CMakeFiles/AudioFileIO.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/AudioFileIO/sndlib/CMakeFiles/sndlib.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/Vibrato/CMakeFiles/Vibrato.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/CMakeFiles/ALL_BUILD.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/CMakeFiles/ZERO_CHECK.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeFiles/ALL_BUILD.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/googletest/googletest/CMakeFiles/ZERO_CHECK.dir
+/Users/noelalben/Documents/2022-MUSI6106-assignment2_vibrato/cmake-build-debug/TestExec/CMakeFiles/TestExec.dir
