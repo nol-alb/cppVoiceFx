@@ -1,2 +1,9 @@
 # cppVoiceFx
-Voice Fx Interface API for real time audio signals. 
+Voice Fx Interface API
+
+Effects include:
+* Comb Filter (FIR & IIR)
+* Delay
+* Vibrato
+* Tremolo
+* Reverb
